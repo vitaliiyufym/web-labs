@@ -16,12 +16,12 @@
 
 /* ---------- 1. Змінні та скидання ---------- */
 :root {
-  --bg: #f4f6f9;
+  --bg: #eef1f4;
   --surface: #ffffff;
   --ink: #14202b;
   --muted: #55636f;
-  --accent: #ff4081;
-  --accent-soft: #dbeafe;
+  --accent: #0f766e;
+  --accent-soft: #d5ece9;
   --line: #c9d2da;
   --header-bg: #14202b;
 }
@@ -33,7 +33,7 @@ html[data-theme="dark"] {
   --surface: #17222d;
   --ink: #e6edf3;
   --muted: #9aabb9;
-  --accent: #ff4081;
+  --accent: #2dd4bf;
   --accent-soft: #123b3a;
   --line: #2b3b49;
   --header-bg: #0a0f14;
@@ -53,24 +53,24 @@ body {
   background-color: var(--bg);
   max-width: 1000px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 24px;
   transition: background-color 0.3s, color 0.3s;
 }
 
 h1, h2, h3 {
   font-family: Georgia, "Times New Roman", serif;
-  line-height: 2;
+  line-height: 1.2;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 1.4rem;
   margin-bottom: 12px;
-  padding-bottom: 10px;
-  border-bottom: 3px solid var(--accent);
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--accent);
 }
 
 h3 {
-  font-size: 2.1rem;
+  font-size: 1.1rem;
   margin-bottom: 4px;
 }
 
@@ -83,12 +83,12 @@ p + p {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 44px;
-  padding: 12px;
+  gap: 24px;
+  padding: 32px;
   margin-bottom: 24px;
   color: #ffffff;
   background-color: var(--header-bg);
-  border-left: 10px solid var(--accent);
+  border-left: 8px solid var(--accent);
   border-radius: 4px;
 }
 
@@ -104,14 +104,14 @@ p + p {
 .contacts {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 4px;
   font-style: normal;
   font-size: 0.95rem;
 }
 
 .theme-toggle {
   margin-top: 12px;
-  padding: 10px 14px;
+  padding: 6px 14px;
   font: inherit;
   font-size: 0.9rem;
   color: #ffffff;
@@ -148,7 +148,7 @@ main {
 section {
   padding: 20px 24px;
   background-color: var(--surface);
-  border: 8px solid var(--line);
+  border: 1px solid var(--line);
   border-radius: 4px;
   transition: background-color 0.3s;
 }
@@ -191,7 +191,7 @@ a {
 
 a[href^="mailto:"] { font-weight: 600; }
 a[href^="tel:"] { white-space: nowrap; }
-a[target="_blank"]::after { content: " ↗"; }
+a[target="_blank"]::after { content: " ↗️"; }
 
 a:hover {
   color: #7fe0d6;
@@ -211,7 +211,6 @@ a:focus-visible {
 section:first-child {
   border-left: 6px solid var(--accent);
 }
-
 /* ---------- 8. Відгуки ---------- */
 .reviews-list {
   display: grid;
