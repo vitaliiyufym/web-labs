@@ -20,7 +20,7 @@
   --surface: #ffffff;
   --ink: #14202b;
   --muted: #55636f;
-  --accent: #2563eb;
+  --accent: #ff4081;
   --accent-soft: #dbeafe;
   --line: #c9d2da;
   --header-bg: #14202b;
@@ -33,7 +33,7 @@ html[data-theme="dark"] {
   --surface: #17222d;
   --ink: #e6edf3;
   --muted: #9aabb9;
-  --accent: #2dd4bf;
+  --accent: #ff4081;
   --accent-soft: #123b3a;
   --line: #2b3b49;
   --header-bg: #0a0f14;
